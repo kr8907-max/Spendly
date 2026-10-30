@@ -10,7 +10,6 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@prisma/client": "^7.10.1",
     "decimal.js": "^10.6.0",
     "framer-motion": "^14.9.0",
     "lucide-react": "^1.65.0",
@@ -20,13 +19,14 @@
     "recharts": "^3.10.1"
   },
   "devDependencies": {
+    "@prisma/client": "^5.22.0",
     "@tailwindcss/turbopack": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.4.3",
-    "prisma": "^8.0.0-rc.29",
+    "prisma": "^5.22.0",
     "tailwindcss": "^4",
     "typescript": "^5",
     "vite": "^8.3.5",
